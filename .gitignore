@@ -1,0 +1,38 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# HuggingFace cache / model weights
+backend/.hf_cache/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Environment files
+.env
+backend/.env
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
